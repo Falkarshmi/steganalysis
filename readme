@@ -1,0 +1,48 @@
+# Python software performs image analysis to determine the possibility of hidden text in an image.
+# This software depends on the presence of the cover and the suspicious image, and it analyzes by finding the following values:
+# hash, size and similarity
+*-----------------------------------------------------------------------------------------------*
+#################################################################################
+################### General information and used liberaries #####################
+#################################################################################
+ this program programmed by python3, it might not work in python 2.
+if your system using python 2 and python 3 ( like almost of MAC systems) you have to use the command python3 to run the code correctly.
+#
+To run the code use the command: python3 q1-ii-Known.py -i Lena.png -j stego-image.png
+#
+
+
+# 
+libraries used are : 
+
+## Some times u need to use the command pip3 instead of pip, especially when your system is Mac or using two versions of python
+
+*--* argparse library *--*
+
+This library is standard in python, however, if it is not existed in your system use the next commands : 
+
+easy_install argparse
+pip install argparse
+
+*--* scikit-image library *--*
+
+To download the library use the commands :
+
+pip install --upgrade scikit-image
+$ pip install --upgrade imutils
+
+
+*--* opencv-python library *--*
+
+To install :
+pip install opencv-contrib-python
+
+*--* Hash library *--*
+
+
+Pip install hashlib
+
+
+More details: https://docs.python.org/2/library/hashlib.html
+
+
